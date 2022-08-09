@@ -3,7 +3,7 @@ import InputField from "./components/InputField";
 import TodoList from "./components/TodoList";
 import './App.css';
 import {Todo} from "./model";
-
+// app core logic
 const App: React.FC = () => {
 
   const [todo, setTodo] = useState<string>("");
